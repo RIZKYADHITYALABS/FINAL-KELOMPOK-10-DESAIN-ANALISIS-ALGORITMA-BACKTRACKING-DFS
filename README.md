@@ -10,14 +10,6 @@ Project ini mendemonstrasikan bagaimana algoritma rekursif (Backtracking) dapat 
 
 [Lihat Demo (Opsional: Masukkan Link Deploy di sini)]
 
----
-
-## 📸 Screenshots
-
-![App Interface](./assets/screenshot-main.png)
-*(Tampilan antarmuka simulasi denah gedung dan jalur evakuasi)*
-
----
 
 ## 🌟 Fitur Utama
 
