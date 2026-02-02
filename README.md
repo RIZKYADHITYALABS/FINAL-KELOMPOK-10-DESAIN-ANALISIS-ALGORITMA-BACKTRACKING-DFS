@@ -1,2 +1,77 @@
-# FINAL-KELOMPOK-10-DESAIN-ANALISIS-ALGORITMA-BACKTRACKING-DFS
-KELOMPOK 10
+# 🏢 Building Evacuation Safe Path Search
+
+![Project Status](https://img.shields.io/badge/Status-Completed-success)
+![Language](https://img.shields.io/badge/Language-JavaScript-yellow)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+**Aplikasi simulasi pencarian jalur evakuasi aman dalam gedung menggunakan algoritma Backtracking.**
+
+Project ini mendemonstrasikan bagaimana algoritma rekursif (Backtracking) dapat diterapkan untuk memecahkan masalah navigasi di dunia nyata, khususnya dalam skenario darurat seperti kebakaran atau bencana alam di dalam gedung.
+
+[Lihat Demo (Opsional: Masukkan Link Deploy di sini)]
+
+---
+
+## 📸 Screenshots
+
+![App Interface](./assets/screenshot-main.png)
+*(Tampilan antarmuka simulasi denah gedung dan jalur evakuasi)*
+
+---
+
+## 🌟 Fitur Utama
+
+* **Algoritma Backtracking:** Mencari jalur solusi dengan mencoba berbagai kemungkinan rute dan "mundur" (backtrack) jika menemui jalan buntu atau bahaya.
+* **Visualisasi Grid/Denah:** Representasi visual denah gedung dalam bentuk grid interaktif.
+* **Penetapan Titik:** User dapat menentukan titik awal (posisi korban) dan titik akhir (pintu keluar).
+* **Simulasi Rintangan:** Kemampuan untuk menempatkan "bahaya" atau "tembok" yang tidak bisa dilewati jalur evakuasi.
+* **Path Highlighting:** Menampilkan rute teraman secara visual dari titik A ke titik B.
+* **Responsive Design:** Tampilan antarmuka yang bersih dan mudah digunakan.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+Project ini dibangun sepenuhnya menggunakan teknologi web standar tanpa framework berat (Vanilla Web Stack), sehingga ringan dan cepat.
+
+* **HTML5:** Struktur semantik aplikasi.
+* **CSS3:** Styling antarmuka (Flexbox/Grid) dan animasi visualisasi jalur.
+* **JavaScript (ES6+):** Logika utama algoritma Backtracking dan manipulasi DOM interaktif.
+
+---
+
+## 🧠 Cara Kerja Algoritma
+
+Aplikasi ini menggunakan pendekatan **Backtracking** (sejenis Depth-First Search) untuk menemukan jalur:
+
+1.  Algoritma memulai pencarian dari titik *Start*.
+2.  Mengecek empat arah pergerakan (Atas, Bawah, Kiri, Kanan).
+3.  Jika langkah valid (aman dan belum dikunjungi), algoritma maju ke langkah tersebut.
+4.  Jika algoritma menemui jalan buntu atau rintangan, ia akan **mundur (backtrack)** ke posisi sebelumnya dan mencoba arah lain.
+5.  Proses berulang hingga mencapai titik *Exit* atau seluruh kemungkinan habis.
+
+---
+
+## 🚀 Cara Menjalankan Project
+
+Karena project ini hanya menggunakan HTML, CSS, dan JS statis, Anda tidak perlu menginstal environment backend (seperti Node.js atau Python).
+
+1.  **Clone repository ini:**
+    ```bash
+    git clone [https://github.com/username-anda/nama-repo-anda.git](https://github.com/username-anda/nama-repo-anda.git)
+    ```
+2.  **Buka Folder:**
+    Masuk ke direktori project yang sudah di-download.
+3.  **Jalankan:**
+    Cukup buka file `index.html` menggunakan browser favorit Anda (Chrome, Firefox, Edge).
+
+---
+
+## 📂 Struktur Folder
+
+```text
+/
+├── index.html      # File utama aplikasi
+├── style.css       # File styling tampilan
+├── script.js       # Logika algoritma Backtracking
+└── assets/         # Folder untuk gambar/icon (jika ada)
