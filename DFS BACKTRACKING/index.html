@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web pencarian jalur evakuasi gedung dengan Backtracking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Web pencarian jalur evakuasi gedung dengan Backtracking</h1>
+            <p>Web ini di desain untuk mencari jalur evakuasi gedung dengan menggunakan algoritma Backtracking.</p>
+        </header>
+
+        <main>
+            <div class="controls">
+                <div class="palette">
+                    <button class="tool active" data-tool="wall" id="btn-wall">
+                        <span class="icon"></span> TEMBOK
+                    </button>
+                    <button class="tool" data-tool="start" id="btn-start">
+                        <span class="icon"></span> START POINT
+                    </button>
+                    <button class="tool" data-tool="end" id="btn-end">
+                        <span class="icon"></span> EXIT POINT
+                    </button>
+                </div>
+                
+                <div class="actions">
+                    <button id="btn-find-path" class="primary-btn">Temukan Jalan keluar</button>
+                    <button id="btn-reset" class="secondary-btn">Reset Grid</button>
+                </div>
+
+                <div class="status-message" id="status-message">
+                    Buat tembok/rintangannya dan tentukan start/exit point
+                </div>
+            </div>
+
+            <div class="grid-container" id="grid">
+                
+            </div>
+            
+            <div class="legend">
+                <div class="legend-item"><span class="color-box start"></span>Start</div>
+                <div class="legend-item"><span class="color-box end"></span>Exit</div>
+                <div class="legend-item"><span class="color-box wall"></span>Tembok</div>
+                <div class="legend-item"><span class="color-box visited"></span>Jalur yang telah di periksa</div>
+                <div class="legend-item"><span class="color-box path"></span>Jalan Keluar</div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
