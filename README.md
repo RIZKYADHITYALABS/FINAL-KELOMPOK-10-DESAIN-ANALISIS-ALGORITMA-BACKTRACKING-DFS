@@ -8,9 +8,6 @@
 
 Project ini mendemonstrasikan bagaimana algoritma rekursif (Backtracking) dapat diterapkan untuk memecahkan masalah navigasi di dunia nyata, khususnya dalam skenario darurat seperti kebakaran atau bencana alam di dalam gedung.
 
-[Lihat Demo (Opsional: Masukkan Link Deploy di sini)]
-
-
 ## 🌟 Fitur Utama
 
 * **Algoritma Backtracking:** Mencari jalur solusi dengan mencoba berbagai kemungkinan rute dan "mundur" (backtrack) jika menemui jalan buntu atau bahaya.
@@ -41,21 +38,6 @@ Aplikasi ini menggunakan pendekatan **Backtracking** (sejenis Depth-First Search
 3.  Jika langkah valid (aman dan belum dikunjungi), algoritma maju ke langkah tersebut.
 4.  Jika algoritma menemui jalan buntu atau rintangan, ia akan **mundur (backtrack)** ke posisi sebelumnya dan mencoba arah lain.
 5.  Proses berulang hingga mencapai titik *Exit* atau seluruh kemungkinan habis.
-
----
-
-## 🚀 Cara Menjalankan Project
-
-Karena project ini hanya menggunakan HTML, CSS, dan JS statis, Anda tidak perlu menginstal environment backend (seperti Node.js atau Python).
-
-1.  **Clone repository ini:**
-    ```bash
-    git clone [https://github.com/username-anda/nama-repo-anda.git](https://github.com/username-anda/nama-repo-anda.git)
-    ```
-2.  **Buka Folder:**
-    Masuk ke direktori project yang sudah di-download.
-3.  **Jalankan:**
-    Cukup buka file `index.html` menggunakan browser favorit Anda (Chrome, Firefox, Edge).
 
 ---
 
